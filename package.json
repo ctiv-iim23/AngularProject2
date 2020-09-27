@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run build",
     "build-lib": "ng build ng-tournament-tree && yarn run copy-styles && yarn run copy-license && yarn run copy-changelog",
     "copy-styles": "copyfiles -f src/styles/*.scss dist/ng-tournament-tree/styles",
     "copy-license": "copyfiles -f projects/ng-tournament-tree/LICENSE.md dist/ng-tournament-tree",
